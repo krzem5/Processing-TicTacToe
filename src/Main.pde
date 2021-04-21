@@ -74,7 +74,7 @@ void check_win(){
 
 
 void make_move(int i,int j){
-	if (i>-1&&i<3&&j>-1&&j<3&board[j][i]==-1){
+	if (i>-1&&i<3&&j>-1&&j<3&&board[j][i]==-1){
 		board[j][i]=turn;
 		check_win();
 		turn=1-turn;
